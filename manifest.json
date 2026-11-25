@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AI Deal & Promo Finder",
+  "version": "1.0.0",
+  "description": "Search the internet for active AI promo codes, free API credits, and trial offers.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.reddit.com/*",
+    "https://api.github.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Find AI Promo Codes & Free Offers"
+  }
+}
