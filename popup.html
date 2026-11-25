@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Deal & Promo Finder</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>⚡ AI Deal Finder</h1>
+      <p class="subtitle">Live promo codes, free tiers & API credits</p>
+    </header>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="e.g., Claude, Midjourney, Cursor, OpenAI..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="chips" id="quickChips">
+      <button class="chip" data-query="free AI API credits">Free API Credits</button>
+      <button class="chip" data-query="ChatGPT Plus promo">ChatGPT</button>
+      <button class="chip" data-query="Claude Pro discount">Claude</button>
+      <button class="chip" data-query="Midjourney free trial">Midjourney</button>
+      <button class="chip" data-query="Cursor AI promo code">Cursor</button>
+    </div>
+
+    <div class="web-dork-bar">
+      <span>Deep Web Search:</span>
+      <a id="googleDorkLink" href="#" target="_blank">Search Google Dorks ↗</a>
+    </div>
+
+    <div id="status" class="status hidden">Searching across Reddit & GitHub...</div>
+    
+    <div id="results" class="results-list"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
