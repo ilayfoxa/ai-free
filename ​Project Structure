@@ -1,0 +1,6 @@
+ai-deal-finder/
+├── manifest.json
+├── popup.html
+├── popup.css
+├── popup.js
+└── README.md
